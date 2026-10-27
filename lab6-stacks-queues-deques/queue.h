@@ -85,7 +85,7 @@ private:
     int capacity;                                       
     int frontData;                                       
     int rear;                                           
-    int count;
+    int count;                                           
 
     void grow() {                                       
         int newCap = capacity * 2;                       
